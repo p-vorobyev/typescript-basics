@@ -1,0 +1,8 @@
+#To avoid creating js file if compile errors
+tsc main --noEmitOnError true
+
+#target compilation
+tsc --t ES6 main.ts
+
+#generate tsconfig.json
+tsc --init
