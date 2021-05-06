@@ -1,0 +1,14 @@
+#create new project
+npm init -y
+
+#install ts+tslint in project
+npm install typescript tslint
+
+#create tslint.json configuration. npx can run executable files from node_modules/.bin
+npx tslint --init
+
+#bundle project files by Webpack
+npm run bundleup
+
+#run node-server app
+npm start
