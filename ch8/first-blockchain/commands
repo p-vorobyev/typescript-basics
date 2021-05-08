@@ -1,0 +1,3 @@
+#how to get result chain
+1) node dist/main.js | grep '{*}' | jq
+2) ts-node src/main.ts | grep '{*}' | jq
