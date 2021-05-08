@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
     "tslint": "^6.1.3"
   },
