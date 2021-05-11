@@ -37,11 +37,11 @@ export class Blockchain {
   }
 
   get chain(): Block[] {
-    return this._chain;
+    return [...this._chain];
   }
 
   get pendingTransactions(): Transaction[] {
-    return this._pendingTransactions;
+    return [...this._pendingTransactions];
   }
 
   async createGenesisBlock(): Promise<void> {
