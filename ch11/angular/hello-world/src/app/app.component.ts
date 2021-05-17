@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <h1>Basic DI application</h1>
     <product-page></product-page>
+    <forms-component></forms-component>
   `,
   styles: []
 })
